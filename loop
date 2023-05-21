@@ -1,0 +1,387 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 18,
+   "id": "446d1e7e-e32c-4fa5-b19d-24a29f142de0",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "SyntaxError",
+     "evalue": "'(' was never closed (2376076998.py, line 1)",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;36m  Cell \u001b[0;32mIn[18], line 1\u001b[0;36m\u001b[0m\n\u001b[0;31m    marks=int((input(\"enter your marks\"))\u001b[0m\n\u001b[0m             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m '(' was never closed\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks=int((input(\"enter your marks\"))\n",
+    "if marks>=80:\n",
+    "    print(\"you will be apart of A0 batch\")\n",
+    "elif marks >= 60 and marks < 80 :\n",
+    "    print(\"you will be a part of A1 batch\")\n",
+    "elif marks >= 40 and marks < 60:\n",
+    "    print (\"you will be a part of A3 batch\")\n",
+    "else :\n",
+    "    print(\"you will be a part of A3 batch\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "a271d041-fceb-45e2-866c-310f2f3f8f75",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "False"
+      ]
+     },
+     "execution_count": 13,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "10>= 80"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "17057235-5ced-4c8c-b894-da5f805808ea",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter your marks 45\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks =int( input (\"enter your marks\"))"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "c6caaa79-613d-4fca-ba9f-b1ed60b46119",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "45"
+      ]
+     },
+     "execution_count": 20,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "marks"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "4e432708-abaf-4fb2-8f8c-08e26fb71928",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "int"
+      ]
+     },
+     "execution_count": 21,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "type(marks)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "e8708637-760c-4c63-965e-43de20bb9ac8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "enter price 1000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "its of\n"
+     ]
+    }
+   ],
+   "source": [
+    "price = int(input (\"enter price\"))\n",
+    "if price > 1000:\n",
+    "    print (\"i will not purchase\")\n",
+    "    if price> 5000:\n",
+    "        print(\"this is too much\")\n",
+    "elif price< 2000:\n",
+    "    print(\"its of\")\n",
+    "\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 31,
+   "id": "9d895cb6-e1ee-4710-9fbd-83db3189d3fb",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l = [1,2,3,4,5,6,7,8,9]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "a8f81b3f-3ccd-4ca5-a1e8-a32d6a06e76b",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "2"
+      ]
+     },
+     "execution_count": 37,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l[0]+1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 38,
+   "id": "c04fa954-c39a-4575-a579-3b72f96c7e8c",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1=[]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "bb9dfd58-b2f0-46de-94c7-7d21376fe43e",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l1.append(l[0]+1)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "fbce1108-1c2a-4196-a3b3-a28aec72f17f",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "[2]"
+      ]
+     },
+     "execution_count": 40,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "f43eb374-5d54-48f0-9bf5-fdfab61ec63d",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l =[1,2,3,4,5,6,7,8]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 45,
+   "id": "f79a932c-915b-4a15-b879-b144a75bccab",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "2\n",
+      "3\n",
+      "4\n",
+      "5\n",
+      "6\n",
+      "7\n",
+      "8\n",
+      "9\n"
+     ]
+    },
+    {
+     "data": {
+      "text/plain": [
+       "[2, 3, 4, 5, 6, 7, 8, 9]"
+      ]
+     },
+     "execution_count": 45,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1 = []\n",
+    "for i in l:\n",
+    "    print(i+1)\n",
+    "    l1.append(i+1)\n",
+    "l1    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "b67db37b-d026-4c1e-8651-31b279d8e8ca",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l= [\"abhi\", \"amrita\", \"pwskills\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "16a2a2a1-7af1-4320-ae75-43c46fa56b7d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "abhi\n",
+      "amrita\n",
+      "pwskills\n"
+     ]
+    }
+   ],
+   "source": [
+    "l1=[]\n",
+    "for i in l:\n",
+    "    print(i)\n",
+    "    l1.append(i.upper())"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "f31b2a2b-48ce-41aa-90ae-252df0b537de",
+   "metadata": {},
+   "outputs": [
+    {
+     "data": {
+      "text/plain": [
+       "['ABHI', 'AMRITA', 'PWSKILLS']"
+      ]
+     },
+     "execution_count": 52,
+     "metadata": {},
+     "output_type": "execute_result"
+    }
+   ],
+   "source": [
+    "l1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "af6ceea2-61e0-4362-93a9-ade084e41416",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "l= [1,2,3,4,5,6,7,8,\"abhi\",234,45,\"abc\"]"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 59,
+   "id": "ae147a5e-41a6-4544-b891-9a4885c2375a",
+   "metadata": {},
+   "outputs": [
+    {
+     "ename": "AttributeError",
+     "evalue": "'list' object has no attribute 'appent'",
+     "output_type": "error",
+     "traceback": [
+      "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+      "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+      "Cell \u001b[0;32mIn[59], line 5\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[38;5;28;01mfor\u001b[39;00m i \u001b[38;5;129;01min\u001b[39;00m l:\n\u001b[1;32m      4\u001b[0m     \u001b[38;5;28;01mif\u001b[39;00m \u001b[38;5;28mtype\u001b[39m(i)\u001b[38;5;241m==\u001b[39m \u001b[38;5;28mint\u001b[39m \u001b[38;5;129;01mor\u001b[39;00m \u001b[38;5;28mtype\u001b[39m (i) \u001b[38;5;241m==\u001b[39m \u001b[38;5;28mfloat\u001b[39m:\n\u001b[0;32m----> 5\u001b[0m         \u001b[43ml1_num\u001b[49m\u001b[38;5;241;43m.\u001b[39;49m\u001b[43mappent\u001b[49m(i)\n\u001b[1;32m      6\u001b[0m     \u001b[38;5;28;01melse\u001b[39;00m :\n\u001b[1;32m      7\u001b[0m         l2_str\u001b[38;5;241m.\u001b[39mappend(i)\n",
+      "\u001b[0;31mAttributeError\u001b[0m: 'list' object has no attribute 'appent'"
+     ]
+    }
+   ],
+   "source": [
+    "l1_num=[]\n",
+    "l2_str =[]\n",
+    "for i in l:\n",
+    "    if type(i)== int or type (i) == float:\n",
+    "        l1_num.appent(i)\n",
+    "    else :\n",
+    "        l2_str.append(i)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "38587571-426e-4865-82ce-bdcbaccff245",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.10.8"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
